@@ -1,0 +1,85 @@
+@import '_connom';
+#nav{height:46px;width:100%;border-top:1px solid #ccc;border-bottom:1px solid #ccc;
+	.h2{background:#F2F2F2;width:160px;float:left;height:46px;text-align:left;line-height:50px;font-size:20px;postion:relative;
+		a{color:#000;font-weight:bold;padding-left:20px;}
+		i{line-height:46px;font-weight:bold}
+
+	
+		.nav2{display:none;position:absolute;left:313px;;top:172px;z-index:1000;width:1244px;
+			.bb{float:right;width:50px;height:50px;}
+			.u1>li{width:223px;height:240px;float:left;
+				h4{height:42px;background:#f9f9f9;width:233px;}
+				ul{
+					li{padding:0;
+						a{color: #ccc;
+							&:hover{color:red;}
+						}
+					}
+				}
+			}
+		}
+
+
+
+
+
+	}
+	ul{
+		li{float:left;line-height:46px;font-size:16px;padding:0 15px;
+			a{color:#000;}
+			a:hover{color:red;}
+		}
+	}
+
+
+}
+
+
+
+
+
+
+#man{height:1000px;width:100%;margin-top:30px;
+	.box{
+		.box-l{width:532px;float:left;height:100%;
+			.s{width:523px;height:513px;border:1px solid #ccc;margin-bottom:50px;
+				img{display:block;width:480px;height:480px;margin:0 auto;}
+				a{color:#000;}
+				p{text-align:right;padding-right:20px;}
+			}
+			.x{height:120px;
+				img{display:block;width:75px;height:75px;background:blue;border:1px solid #ccc;float:left;}
+				.x-l{background:red;margin-right:8px;margin-left:160px;}
+			}
+		}
+		.box-r{width:560px;float:right;height:100%;
+			h2{height:72px;line-height:60px;font-size:24px;}
+			.pr{height:64px;background:#EDEDED;font-size:14px;
+				p{padding:8px 0 0 10px;
+					span{padding-left:30px;}
+					.price{padding-left:68px;color:red;font-size:16px;}
+					.hd{border:1px solid red;color:red;padding:0 4px;margin-left:10px;border-radius:5px;font-size:10px;}
+				}
+			}
+
+			.qty{height:34px;border:1px solid #ccc;margin-top:20px;margin-bottom:20px;
+				p{width:420px;line-height:32px;
+					
+					a{color:#000;}
+					span{border:1px solid #ccc;display:inline-block;width:30px;height:32px;background:#f2f2f2;text-align:center;float:left;}
+					.jian{margin-left:50px;}
+					.q{font-size:18px;border:0;background:#fff;width:50px;}
+					.y , .k{background:#fff;font-size:14px;border:0;display:inline-block;width:34px;height:32px;padding-left:20px;}
+					.y{color:red;padding-left:5px;}
+					input{width:40px;height:32px;border:1px solid #ccc;margin-bottom:2px;float:left;}
+				}
+			}
+			.gowu{height:46px;
+				a{display:block;width:108px;height:100%;border:1px solid red;border-radius:4px;float:left;margin-left:10px;line-height:46px;text-align:center;color:red;
+					&:hover{transition:0.5s;background:red;color:#fff;}
+				}
+			}
+		}
+	}
+		
+}

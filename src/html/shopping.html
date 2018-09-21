@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>结算页</title>
+	<link rel="stylesheet" type="text/css" href="../css/top-header.css" />
+	<link rel="stylesheet" type="text/css" href="../css/foot.css" />
+	<link rel="stylesheet" type="text/css" href="../css/shopping.css" />
+	<link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+	<script src="../require.js" data-main="../js/shopping.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="shopping">
+		<div id="top"></div>
+		<div id="log">
+			<div class="con">
+				<div class="go">
+				<img src="../images/log.png" alt="" />
+				</div>
+
+				<div class="u-r">
+					<ul>
+                        <li class="progress01 active">
+                            <span class="prog-item">1</span>
+                            <div class="prog-title">购物车</div>
+                        </li>
+                        <li class="progress02 ">
+                            <span class="prog-item">2</span>
+                            <div class="prog-title">提交订单</div>
+                            <i class="prog-line"></i>
+                        </li>
+                        <li class="progress03">
+                            <span class="prog-item"><img src="../images/hh.png" alt="" /></span>
+                            <div class="prog-title">选择支付</div>
+                            <i class="prog-line"></i>
+                        </li>
+	                   </ul>
+
+				</div>
+			</div>
+		</div>
+		<div id="tab">
+			<div class="con">
+				<table>
+					<thead>
+						<tr>
+							<th><input type="checkbox" /></th>
+							<th class="goo">商品信息</th>
+							<th>规格</th>
+							<th>单价</th>
+							<th>数量</th>
+							<th>金额</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr  class="t1">
+							<td><input type="checkbox" /></td>
+							<td><a href="#"><img src="../images/oo.png" alt="" /></a>
+							<td>跨境商品</td>
+							<td>满399元包邮</td>
+						</tr>
+
+						<tr class="t2">
+							<td><input type="checkbox" /></td>
+
+							<td>
+								<a href="#" class="kk">
+									<img src="../images/c2.png" />
+								</a>
+							</td>
+
+							<td class="gn"><a href="#">PRIMERA 芙莉美娜 温和面部去角质凝露</a>  </td>
+							<td>--</td>
+							<td><span>单价</span></td>
+							<td class="input">
+								<p>
+									<span class="jian">-</span>
+									<input class="tal" type="text" value="1" />
+									<span class="jia">+</span>
+								</p>
+							</td>
+							<td><span>小计</span></td>
+							<td class="del"><a href="#" id="del">删除</a></td>
+						</tr>
+						<tr class="t3">
+								<td class="tal"><span class="tal">本仓总计：</span></td>
+								<td class="price"><span class="price">￥0.00</span></td>
+								<td class="ex"><span class="ex">(不包含运费)</span></td>
+						</tr>
+
+					</tbody>
+					<tfoot>
+						<tr>
+							<td><input type="checkbox" name=""></td>
+							<td><a href="#">删除</a></td>
+							<td><a href="#">清空失效的商品</a></td>
+							<td class="total"><span>总计：</span></td>
+							<td class="pr"><span>￥0.00</span></td>
+							<td class="baohan"><span>(不包含运费)</span></td>
+							<td class="but"> <a href="#">去结算</a></td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+		<div id="foot"></div>
+		<div id="guanyu"></div>
+		<div id="guanyu-x"></div>
+		<div id="banquan"></div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,272 @@
+@import '_connom';
+
+#mox{margin:0 auto;}
+
+#top{height:30px;width:100%;background:#FF5073;
+	p{line-height:29px;
+		a{color:#fff;margin:0 3px;}
+		.a1{padding-left:0;}
+		img{margin:3px 0 0 0;}
+	}
+	ul{overflow:hidden;
+		li{float:left;padding:0 10px;line-height:30px;
+			a{color:#fff;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+#header{height:95px;width:100%;
+	.her-l{width:240px;margin:20px 100px 0 0;}
+	.her-c{width:426px;margin:32px 100px 0 0;border:1px solid #ccc;border-radius:20px;height:36px;line-height:36px;
+		input{margin-left:20px;display:block;height:100%;width:340px;float:left;}
+		button{background:none;float:right;margin-right:10px;padding-top:3px;
+			i{font-size:28px;color:#FF5073;}
+		}
+
+	}
+	.her-r{width:240px;margin:3px 100px 0 0;}
+}
+
+
+
+
+
+
+
+#nav{height:46px;width:100%;border-top:1px solid #ccc;
+	.h2{background:#F2F2F2;width:160px;float:left;height:46px;text-align:left;line-height:50px;font-size:20px;postion:relative;
+		a{color:#000;font-weight:bold;padding-left:20px;}
+		i{line-height:46px;font-weight:bold}
+
+	
+		.nav2{width:160px;position:absolute;left:324px;;top:172px;
+				z-index:1000;
+			.uuu{background: rgba(3, 3, 3, .5);width:166px;height:480px;}
+			li{width:100%;height:50px;padding:0;
+				&:hover{background:#fff;}
+				&:hover a{color:red;}
+				a{color:#fff;}
+				&:hover {color:#red;}
+
+				ul{background: rgba(3, 3, 3, .5);}
+			}
+			.li1{position:relative;
+				.uu1{position:absolute;left:160px;top:0;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+				}
+				&:hover .uu1{display:block;}
+			}
+
+
+			.li2{position:relative;
+				.uu2{position:absolute;left:160px;top:-50px;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+
+				}
+				&:hover .uu2{display:block;}
+			}
+
+
+
+			.li3{position:relative;
+				.uu3{position:absolute;left:160px;top:-100px;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+				}
+				&:hover .uu3{display:block;}
+			}
+
+
+
+			.li4{position:relative;
+				.uu4{position:absolute;left:160px;top:-150px;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+				}
+				&:hover .uu4{display:block;}
+			}
+
+
+
+
+			.li5{position:relative;
+				.uu5{position:absolute;left:160px;top:-200px;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+				}
+				&:hover .uu5{display:block;}
+			}
+
+
+
+
+			.li6{position:relative;
+				.uu6{position:absolute;left:160px;top:-250px;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+				}
+				&:hover .uu6{display:block;}
+			}
+
+
+			.li7{position:relative;
+				.uu7{position:absolute;left:160px;top:-300px;width:160px;height:414px;background: rgba(3, 3, 3, .5);display:none;
+					li{height:50px;width:160px;padding:0;
+						&:hover{background:#ccc;}
+						a{color:#fff;}
+						a:hover{color:red;}
+					}
+				}
+				&:hover .uu7{display:block;}
+			}
+			
+		}
+
+
+
+
+
+	}
+	ul{
+		li{float:left;line-height:46px;font-size:16px;padding:0 15px;
+			a{color:#000;}
+			a:hover{color:red;}
+		}
+	}
+
+
+}
+
+
+
+#banner{height:484px;width:100%;	background:url("http://img001.cn.memebox.com/img/activity/2017/2/9/22/20172922456banner1.jpg") no-repeat;}
+
+
+
+
+
+#over{width:100%;height:488px;overflow:hidden;
+	.over-s{height:96px;width:100%;
+		h2{font-size:18px;line-height:96px;color:#000;
+			span{margin-left:15px;font-size:12px;color:#8C3333}
+		}
+	}
+
+	.ul{height:397px;overflow:hidden;
+		li{width:236px;height:397px;float:left;padding-left: 45px;}
+		i{margin-top:110px;font-size:40px;}
+		.zuo{float:left;}
+		.you{float:right;}
+	}
+
+
+}
+
+
+
+
+
+#man{height:1000px;width:100%;background:#fff;
+	ul{width:1244px;margin:0 auto;
+		li{float:left;height:470px;width:380px;padding-top:20px;margin-left:23px;overflow:hidden;
+			&:hover{transition: 2s;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
+			img{height:400px;}
+			.div{background:pink;width:224px;height:64px;float:left;overflow:hidden;
+				.price1{width:88px;height:64px;float:left;line-height:64px;font-size:20px;color:#FF7E00;padding-left:17px;}
+				.r{padding-left:8px;padding-top:12px;float:left;height:47px;width:76px;
+					p{text-align:center;color:#FD8FC4;}
+					.price{font-size:16px;color:#BEB7BA;}
+				}
+			}
+			button{width:125px;height:64px;background:#FD49AC;float:left;
+				a{display:block;width:100%;height:100%;color:#fff;line-height:64px;font-size:20px;}
+			}
+			
+		}
+	}
+	
+
+}
+
+
+
+#foot{background:#ccc;width:100%;height:188px;
+	ul{width:100%;height:100%;
+		li{float:left;width:120px;padding-top:30px;margin-left:180px;
+			img{width:120px;height:120px;}
+		}
+	}
+}
+
+
+#guanyu{width:100%;height:388px;overflow:hidden;
+	.fenxiang{width:200px;height:388px;float:left;
+		h4{height:30px;width:100%;text-align:center;padding-top:160px;}
+		ul{height:52px;width:200px;
+			li{float:left;padding:0 10px;}
+		}
+	}
+	.guanyu{height:388px;float:right;overflow:hidden;
+		.guanyu-s{height:320px;width:933px;
+			ul{float:left;width:96px;margin-top:40px;margin-left:100px;padding-left:20px;border-left:1px solid #ccc;
+				h4{font-size:16px;padding-bottom:30px;font-weight:blod;}
+				li{line-height:40px;}
+			}
+		}
+		
+	}
+
+}
+
+#guanyu-x{height:76px;width:100%;border-top:1px solid #ccc;border-bottom:1px solid #ccc;
+	h4{text-align:center;line-height:20px;font-size:20px;padding:15px 0 10px 0 ;color:#000;}
+	li{float:left;padding:3px 120px;}
+}
+
+
+
+
+
+#banquan{height:50px;width:100%;background:#fff;overflow:hidden;
+	.b-l{width:300px;height:50px;float:left;line-height:50px;}
+	img{display:block;width:47px;height:47px;float:left;margin-left:10px;}
+	.b-r{width:704px;height:50px;float:left;margin-left:90px;
+		
+		
+		span{line-height:50px;}
+		.spanl{font-weight:bold;font-size:12px;}
+	}
+}
+
+
+
+
+

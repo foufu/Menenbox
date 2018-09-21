@@ -1,0 +1,66 @@
+@import '_connom';
+#nav{height:46px;width:100%;border-top:1px solid #ccc;border-bottom:1px solid #ccc;
+	.h2{background:#F2F2F2;width:160px;float:left;height:46px;text-align:left;line-height:50px;font-size:20px;postion:relative;
+		a{color:#000;font-weight:bold;padding-left:20px;}
+		i{line-height:46px;font-weight:bold}
+
+	
+		.nav2{display:none;position:absolute;left:313px;;top:172px;z-index:1000;width:1244px;
+			.bb{float:right;width:50px;height:50px;}
+			.u1>li{width:223px;height:240px;float:left;
+				h4{height:42px;background:#f9f9f9;width:233px;}
+				ul{
+					li{padding:0;
+						a{color: #ccc;
+							&:hover{color:red;}
+						}
+					}
+				}
+			}
+		}
+
+
+
+
+
+	}
+	ul{
+		li{float:left;line-height:46px;font-size:16px;padding:0 15px;
+			a{color:#000;}
+			a:hover{color:red;}
+		}
+	}
+
+
+}
+
+
+#str{height:62px;width:100%;margin-top:10px;
+	ul{border-top:1px solid #ccc;border-bottom:1px solid #ccc;height:60px;overflow:hidden;line-height:60px;font-size:14px;
+		li{float:left;
+			span{border-right:1px solid #ccc;padding:0 10px;}
+			select{width:68px;height:35px;}
+
+			.span{display:block;height:50px;width:30px;}
+		}
+	}
+}
+
+#man{width:100%;padding-bottom:20px;
+	.goodslist{overflow:hidden;margin-top:20px;
+		li{float:left;width:296px;height:510px;border-top:1px solid #ccc;padding-left:10px;text-align:center;margin-top:5px;
+			&:hover{border-top-color: #fff;transition: 0.5s;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
+
+			img{width:200px;height:190px;margin-bottom:50px;}
+			h4{font-size:18px;color:#000;
+				&:hover{color:red;}
+			}
+			p{padding:20px;color:#ccc;font-size:20px;}
+			.price{color:20px;color:red;}
+			.aa{display:block;width:114px;height:46px;background:#ccc;color:#000;line-height:46px;font-size:12px;
+				&:hover{transition:0.5s;background:red;color:#fff;font-size:14px;}
+			}
+		}
+	}
+	
+}
