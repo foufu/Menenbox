@@ -186,46 +186,19 @@
                 };
 
 
-                  // 封装计算总价
-                function allprice(arr){
-                    //声明一个值为0
-                    $price = 0;
-                  
-                    for(let i = 0; i < arr.length; i++){
-                        console.log(arr[i])
-                        //获取总计的值
-                         var $pri = $('.total').eq(i).text();
-                       console.log($pri)
-                        //去掉前后空格
-                        $pri = $.trim($pri);
-                        console.log($pri);
-                        //截取价格数字部分
-                        $pri = $pri.substring(1);
-                        console.log($pri)
-                        //将计算后的值取整赋给$price
-                        $price += parseInt($pri);
-                        console.log($price)
-                    }
-
-                     $('.pp').html('￥&nbsp;'+$price.toFixed(2));
-                    //拼接到对应的位置
-                    $('.pr span').html('￥&nbsp'+$price.toFixed(2));
-                }
-
-  
 
                  // 封装计算小计
                 function pric(now){
-                  console.log(now)
+                  // console.log(now)
                     // 获取单价
                     var pri = now.parent().parent().prev().text();
-                  console.log(pri)
+                  // console.log(pri)
                      //去除前后空格
                      pri = $.trim(pri);
 
                      //截取
                      pri = pri.substring(1);
-                      console.log(pri )
+                      // console.log(pri )
                      //获取值
                      // console.log(now.parent().find('input').val())
                      var num = now.parent().find('input').val();
@@ -233,10 +206,41 @@
                      //运算
                      // console.log(pri+'----------'+num);
                      var all = pri * num;
-                     // console.log(all);
+                     console.log(all);
                      // 将计算好的价格传给小计
-                   now.parent().parent().next().html('￥&nbsp;' + all.toFixed(2));   
+                   now.parent().parent().next().find('.total').html('￥&nbsp;' + all.toFixed(2));  
                 }
+
+
+                  // 封装计算总价
+                function allprice(arr){
+                  console.log(arr);
+                    //声明一个值为0
+                    $price = 0;
+                  
+                    for(let i = 0; i < arr.length; i++){
+                        //获取总计的值
+                         var $pri = $('.total').eq(arr[i]-1).text();
+                         console.log($('.total'))
+                         console.log($('.total').eq(arr[i]-1))
+                         console.log($pri)
+                       console.log($pri)
+                        //去掉前后空格
+                        $pri = $.trim($pri);
+                        console.log($pri);
+                        //截取价格数字部分
+                        $pri = $pri.substring(1);
+                        // console.log($pri)
+                        //将计算后的值取整赋给$price
+                        $price += parseInt($pri);
+                        // console.log($price)
+                    }
+
+                     $('.pp').html('￥&nbsp;'+$price.toFixed(2));
+                    //拼接到对应的位置
+                    $('.pr span').html('￥&nbsp'+$price.toFixed(2));
+                }
+
               
 
 
@@ -252,8 +256,8 @@
                         // console.log($arr)
                         for(var i = $arr.length-1; i >= 0; i--){
                             //获取到全删按钮，并删除
-                            console.log($('tbody input'))
-                            $('tbody input').eq($arr[i]).parent().parent().remove();
+                            console.log($('.inp'))
+                            $('.ttd').eq($arr[i]).parent().remove();
                         }
 
                         //执行updata()函数

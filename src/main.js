@@ -24,7 +24,7 @@
     requirejs(['jquery',"index","banner"],function($){
         //这里的代码等common，moduleA，moduleB，moduleC模块都加载完成后执行
         //但不保证以上模块的加载顺序
-        // $('#shou').load("html/top-header.html #shou");
+        $('#shou').load("html/top-header.html #shou");
 
 
 
