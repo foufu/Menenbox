@@ -39,7 +39,7 @@
 
 
 
-#man{height:1000px;width:100%;margin-top:30px;
+#man{height:700px;width:100%;margin-top:30px;
 	.box{
 		.box-l{width:532px;float:left;height:100%;
 			.s{width:523px;height:513px;border:1px solid #ccc;margin-bottom:50px;
@@ -83,3 +83,24 @@
 	}
 		
 }
+
+#tab{
+	height:170px;width:100%;
+	.tab-s{height:66px;
+		ul li{float:left;line-height:64px;font-size:20px;color:#6759C8;
+			h4{float:right;height:64px;width:186px;text-align:left;margin-left:45px;}
+		}
+	}
+	.tab-x{padding-top:20px;
+		li{float:left;background:#EEEEEE;line-height:70px;text-align:center;
+			a{display:block;width:130px;height:70px;color:#000;font-size:20px;}
+		}
+		.li{background:#ccc;color:red;font-size:26px;}
+
+	}
+}
+
+#dd{width:100%;
+	.con{border:1px solid #ccc;}
+	img{margin-left:180px;}
+	}

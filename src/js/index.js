@@ -6,15 +6,6 @@
 // $('#banquan').load("foot.html #banquan");
 
 
-// 导航效果
-// $(function(){
-// 	let tt = $('#nav ul li');
-// 		for(let i = 0;i <tt.length;i++){
-			
-// 		}
-	
-// });
-	
 
 
 
@@ -22,18 +13,7 @@
 
 
 
-// 轮播图
-$(function(){
-	 let a = $('#over ul li img');
-	$('#over').on('click','.zuo',function(){
-		// console.log(666);
-		
-		
-		
 
-
-	})
-});
 
 
 // man部分
@@ -80,7 +60,7 @@ $(function(){
 
 	    let man = document.querySelector('#man');
 	    let u = document.createElement('ul');
-	     console.log(u);
+	     // console.log(u);
 
 	      u.innerHTML = goods.map(function(data,idx){
 	        return `<li data-guid="${data.id}">
@@ -98,10 +78,7 @@ $(function(){
 	    
 
 	     man.appendChild(u);
-	     // let m =  $('#man');
-
-	     // m.append(u);
-
+	    
 
 })
 

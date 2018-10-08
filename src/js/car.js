@@ -38,7 +38,7 @@
 		$(function(){
 			var obj = {};
 			location.search.slice(1).split('&').forEach(item => {
-				item = item.split('=');
+				item = item.split('=');	
 				obj[item[0]] = item[1];
 			});
 
@@ -72,10 +72,6 @@
 
 
 
-
-
-
-
 			// 点击加减数量
 			let qty = $('.shul').val();
 			$('.jian').click(function(){
@@ -101,15 +97,33 @@
 
 
 
+			// tab标签切换
+			var links =$('.tab-x ul li a');
 
-			// 放大镜弹窗
+			for(let i = 0 ; i < links.length; i++) {
+					
+				links[i].onclick = function(){
+					for(let j = 0; j <links.length;j++){
+
+						if(links[j].className != ''){
+							links[j].className = '';
+						}
+						links[i].className = 'li';
+					}
+					
+						
+					
+					
+					
+					
+					
+					
+				}
+
+			}
+
 
 			
-			// 添加购物车
-			$('#add').click(function(){
-
-			})
-
 	});
 
 

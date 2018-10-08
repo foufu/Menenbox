@@ -33,22 +33,23 @@
 		table{width:1244px;height:400px;
 			input{width:20px;height:20px;}
 
-			thead{display:block;width:100%;height:48px;background:#F9F9F9;border:1px solid #ccc;color:#99A5C0;
+			thead{display:block;width:100%;height:130px;background:#F9F9F9;border:1px solid #ccc;color:#99A5C0;
 				th{width:140px;line-height:48px;font-size:22px;
 
 				}
 				.goo{width:350px;}
+				.t1{display:block;height:65px;line-height:65px;margin-left:53px;
+					td{padding:0 6px;font-size:18px;
+					
+					}
+				 }
 			}
 
 
 
 			tbody{display:block;width:1244px;
-				input{margin-left:60px;}
-				.t1{display:block;height:65px;line-height:65px;
-					td{padding:0 6px;font-size:18px;
-					
-					}
-				 }
+				input{margin-left:53px;}
+				
 				 .t2{display:block;border:1px solid #ccc;height:120px;
 				 	td{padding-top:20px;width:140px;}
 				 	.gn{width:300px;padding-top:0;line-height:80px;
@@ -60,8 +61,12 @@
 				 	span{font-size:18px;color:#000;}
 				 	.input{width:120px;text-align:center;line-height:30px;
 				 		p{width:100px;height:38px;border:1px solid #ccc;font-size:18px;
-				 			span{text-align:center;}
+				 			span{text-align:center;
+				 				font-size:14px;
+				 			}
 				 		}
+				 		.jia,.jian,.tal{font-size:24px;text-align:center;}
+				 		.jian{font-size:28px;}
 						
 				 		input{font-size:18px;margin:0 2px;border-left:1px solid #ccc;border-right:1px solid #ccc;width:30px;height:90%;}
 				 		
@@ -76,8 +81,8 @@
 
 				 .t3{display:block;text-align:right;line-height:80px;height:86px;
 				 	td{font-size:20px;}
-				 	.tal{padding-left:480px;}
-				 	.price{width:80px;font-size:26px;color:red;}
+				 	.tal{padding-left:460px;}
+				 	.price{width:90px;font-size:16px;color:red;}
 				 	.ex{font-size:12px;padding-left:5px;padding-top:10px;}
 
 				 }
@@ -87,10 +92,10 @@
 
 			tfoot{display:block;width:1244px;height:86px;background:#F9F9F9;border:1px solid #ccc;
 				tr{display:block;line-height:86px;font-size:22px;color:#7A7979;position:relative;
-					input{margin-left:60px;}
+					input{margin-left:40px;}
 					td{padding:0 20px;height:86px;}
 					.total{padding-left:100px;padding-right:0;}
-					.pr{width:200px;color:red;font-size:24px;padding-left:0;}
+					.pr{width:200px;color:red;font-size:16px;padding-left:0;}
 					.baohan{font-size:14px;color:#ccc;padding-right:40px;
 						padding-top:20px;
 					}

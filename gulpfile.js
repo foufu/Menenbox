@@ -72,3 +72,9 @@ gulp.task('mon',function(){
 });
 
 
+//布置任务：压缩css文件
+gulp.task('cssmin',function(){
+	return gulp.src('src/css/*.css')
+			   .pipe(cssmin())
+			   .pipe(gulp.dest('css'));
+});

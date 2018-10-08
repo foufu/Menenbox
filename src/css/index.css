@@ -411,6 +411,11 @@ html, body {
         margin-left: 15px;
         font-size: 12px;
         color: #8C3333; }
+  #over .silder li {
+    height: 300px; }
+    #over .silder li img {
+      width: 200px;
+      height: 280px; }
   #over .ul {
     height: 397px;
     overflow: hidden; }
@@ -484,6 +489,8 @@ html, body {
           color: #fff;
           line-height: 64px;
           font-size: 20px; }
+      #man ul li .prov {
+        font-size: 12px; }
 
 #foot {
   background: #ccc;

@@ -10,7 +10,7 @@
 	//获取查询结果集
     $result = $conn->query($sql);
 
-
+    
     echo json_encode($result->fetch_all(MYSQLI_ASSOC));
 
 

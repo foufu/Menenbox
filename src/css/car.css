@@ -184,7 +184,7 @@ html, body {
       color: red; }
 
 #man {
-  height: 1000px;
+  height: 700px;
   width: 100%;
   margin-top: 30px; }
   #man .box .box-l {
@@ -305,5 +305,46 @@ html, body {
           transition: 0.5s;
           background: red;
           color: #fff; }
+
+#tab {
+  height: 170px;
+  width: 100%; }
+  #tab .tab-s {
+    height: 66px; }
+    #tab .tab-s ul li {
+      float: left;
+      line-height: 64px;
+      font-size: 20px;
+      color: #6759C8; }
+      #tab .tab-s ul li h4 {
+        float: right;
+        height: 64px;
+        width: 186px;
+        text-align: left;
+        margin-left: 45px; }
+  #tab .tab-x {
+    padding-top: 20px; }
+    #tab .tab-x li {
+      float: left;
+      background: #EEEEEE;
+      line-height: 70px;
+      text-align: center; }
+      #tab .tab-x li a {
+        display: block;
+        width: 130px;
+        height: 70px;
+        color: #000;
+        font-size: 20px; }
+    #tab .tab-x .li {
+      background: #ccc;
+      color: red;
+      font-size: 26px; }
+
+#dd {
+  width: 100%; }
+  #dd .con {
+    border: 1px solid #ccc; }
+  #dd img {
+    margin-left: 180px; }
 
 /*# sourceMappingURL=car.css.map */
