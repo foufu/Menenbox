@@ -190,9 +190,9 @@
                 function allprice(arr){
                     //声明一个值为0
                     $price = 0;
-                   
+                  
                     for(let i = 0; i < arr.length; i++){
-                       
+                        console.log(arr[i])
                         //获取总计的值
                          var $pri = $('.total').eq(i).text();
                        console.log($pri)
@@ -216,11 +216,10 @@
 
                  // 封装计算小计
                 function pric(now){
+                  console.log(now)
                     // 获取单价
                     var pri = now.parent().parent().prev().text();
-                  console.log(pri
-
-                    )
+                  console.log(pri)
                      //去除前后空格
                      pri = $.trim(pri);
 
@@ -236,7 +235,7 @@
                      var all = pri * num;
                      // console.log(all);
                      // 将计算好的价格传给小计
-                   $('.total').html('￥&nbsp;' + all.toFixed(2));   
+                   now.parent().parent().next().html('￥&nbsp;' + all.toFixed(2));   
                 }
               
 

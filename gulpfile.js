@@ -16,7 +16,7 @@ let clean = require('gulp-clean-css');
 let uglify = require('gulp-uglify');
 let concat = require('gulp-concat');
 let rename = require('gulp-rename');
-var imagemin=require('gulp-imagemin');
+var imgmin=require('gulp-imagemin');
 let less = require('gulp-less');
 let pump = require('pump');
 let babel = require('gulp-babel');
@@ -76,5 +76,23 @@ gulp.task('mon',function(){
 gulp.task('cssmin',function(){
 	return gulp.src('src/css/*.css')
 			   .pipe(cssmin())
-			   .pipe(gulp.dest('css'));
+			   .pipe(gulp.dest('dest/css'));
 });
+
+
+gulp.task("babelindex", function () {
+    gulp.src("src/js/*.js")
+        .pipe(babel())
+        .pipe(uglify())
+        .pipe(gulp.dest("dest/js"));
+});
+
+// 压缩图片
+gulp.task('gulpdistimg',function(){
+    gulp.src('src/images/*')
+        .pipe(
+            imgmin()
+        )
+        .pipe(gulp.dest('dest/img'));
+});
+
